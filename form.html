@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Membership Registration</h1>
+    <fieldset>
+        <legend><h2>Myform</h2></legend>
+    <form action="main.java">
+        <label for="nam">First Name :</label>
+        <input type="text" name="name" placeholder="Enter your First name" id="nam" maxlength="8" disabled>
+        &nbsp;&nbsp;&nbsp; <label for="num">Last Name :</label>
+        <input type="text" name="name" placeholder="Enter your Last name" id="num" readonly><br><br>
+        <label for="em">Email :</label>
+        <input type="email" name="email" placeholder="Enter your mail" id="em">
+        &nbsp;&nbsp;&nbsp;<label for="pass">Password :</label>
+        <input type="password" name="password" placeholder="Enter password" id="pass"><br><br>
+        <label for="ph">phone number :*</label>
+        <input type="number" name="number" placeholder="Enter your number" id="ph" required><br><br>
+        <label for="date of birth">DOB :</label>
+        <input type="date" name="dob" id="date of birth"><br><br>
+        <label for="add">Address :</label>
+        <textarea name="add" id="add1" rows="5" cols="20" placeholder="Enter your address"></textarea><br><br>
+        <label for="c">city :</label>
+        <select id="c">
+            <option value="select state">select state</option>
+            <option value="Andhra pradesh">Andhra pradesh</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Goa">Goa</option>
+            <option value="Maharastra">Maharastra</option>
+            <option value="Karnataka">Karnataka</option>
+        </select>
+        <br><br>
+        <label for="zip">Zip code :</label>
+        <input type="number" name="zipcode" id="zip" max="7"><br><br>
+        <dl>
+            <dt>
+        <label id="mem">choose your membership level :</label><br><br>
+        </dt>
+        <dd>
+        <input type="radio" name="membership level" id="mem">
+        <label id="mem">Gold</label>
+        <input type="radio" name="membership level" id="mem">
+        <label id="mem">bronze</label>
+        <input type="radio" name="membership level" id="mem">
+        <label id="mem">silver</label>
+        <input type="radio" name="membership level" id="mem">
+        <label id="mem">platinum</label><br><br>
+        <dd>
+        </dl>
+        <dl>
+            <dt>
+        <label>courses :</label><br>
+        </dt>
+        <dd>
+        <input type="checkbox" name="che" id="1">
+        <label for="1">HTML</label>
+        <input type="checkbox" name="che" id="2">
+        <label for="2">CSS</label>
+        <input type="checkbox" name="che" id="3">
+        <label for="3">JS</label>
+        <input type="checkbox" name="che" id="4">
+        <label for="4">Java</label>
+        <dd>
+        <dl>
+        <br><br>
+        <label for="sign">signiture :</label>
+        <input type="file" name="file" id="sign"><br><br>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form>
+    <header>
+    <h1><u>Admission Form</u></h1>
+    <hr>
+    <table>
+    <tr>
+    <td>    
+    <img src="https://collegeadmission.co.in/wp-content/uploads/2020/06/slider1-1.jpg" alt="admission imge" width="40%" height="5%">
+    </td>
+    <td>
+    <h3>Social Media<br></h3>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-whatsapp"></i>
+    <i class="fa-brands fa-twitter"></i>
+    </td>
+    </tr>
+    </table>
+    </header>
+    <hr>
+    <main>
+    <section>
+        <h2>Register Here :</h2>
+        <label for="stdname">Student Name :*</label>
+        <input type="text" name="studentname" id="stdname" placeholder="Enter your name" required><br><br>
+        <label for="fathname">Father Name :*</label>
+        <input type="text" nmae="fathername" id="fathname" placeholder="Enter your Father name" required><br><br>
+        <label for="momname">Mother Name :*</label>
+        <input type="text" name="mothername" id="momname" placeholder="Enter your Mother name" required><br><br>
+        <label for="dob">Date Of Birth :*</label>
+        <input type="date" name="dob" id="dob" required>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>Gender :*</label>
+        <input type="radio" name="gender" id="male" required>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="trans">
+        <label id="trans">Trans</label> 
+        </section>
+        <section>
+        <fieldset>
+            <legend><h2>Present Address :</h2></legend>
+            <label for="div">Division :*</label>
+            <input type="text" name="division" id="div" required>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="dis">District :*</label>
+            <input type="text" name="district" id="dis" required><br><br>
+            <label>Address :*</label>
+            <textarea name="address" id="add" rows="30" cols="5" placeholder="Enter your present address" required></textarea>
+        </fieldset>
+        </section>
+        <section>
+        <fieldset>
+            <legend><h2>Permanent Addreess :</h2></legend>
+            <label for="perdiv">Division :*</label>
+            <input type="text" name="perdiv" id="perdiv" required>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <label for="perdis">District :*</label>
+            <input type="text" name="perdis" id="perdis" required><br><br>
+            <label>Address :*</label>
+            <textarea name="peradd" id="peradd" placeholder="Enter your permanent address" rows="30" cols="10" required></textarea>
+        </fieldset>
+            <br>
+            <br>
+        </section>
+        <section>
+        <label for="religions">Religion :*</label>
+        <input list="religion" name="religions" id="religions" required>
+        <datalist id="religion">
+            <option value="Hindus"></option>
+            <option value="Muslims"></option>
+            <option value="Christians"></option>
+            <option value="Sikhs"></option>
+            <option value="Buddhists"></option>
+            <option value="Jains"></option>
+            <option value="adherents of folk religions"></option>
+        </datalist>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="nationality">Nationality :*</label>
+        <input type="text" name="nationality" id="nationality" required>
+        <br>
+        <br>
+        <label for="phno">Phone Number :*</label>
+        <input type="number" name="phonenumber" id="phno" required>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="mail">Email Address :*</label>
+        <input type="email" name="Email" id="mail" required>
+        <br>
+        <br>
+        <label for="altno">Alternate Number :(opt)</label>
+        <input type="number" name="alternatenumber" id="altno">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>Blood Group :*</label>
+        <select name="bloodgroup" id="bloodgrp" required>
+            <option value="bloodgroup">Select Bloodgroup</option>
+            <option value="O positive">O Positive</option>
+            <option Value="O negative">O Negative</option>
+            <option value="A positive">A Positive</option>
+            <option value="A negative">A Negative</option>
+            <option value="B positive">B Positive</option>
+            <option value="B negative">B Negative</option>
+            <option value="AB positive">AB Positive</option>
+            <option value="AB negative">AB Negative</option>
+        </select>
+        <br>
+        <br>
+        <label id="occupatn">Occupation :*</label>
+        <input type="text" name="occupation" id="occupatn" required>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>Status :*</label>
+        <input type="radio" name="status" id="single" required>
+        <label for="single">Single</label>
+        <input type="radio" name="status" id="married">
+        <label for="married">Married</label>
+        <br>
+        <br>
+        <label for="course">Course Type :*</label>
+        <input list="courses" name="coursetype" id="course" required>
+        <datalist id="courses">
+            <option value="ECE"></option>
+            <option value="EEE"></option>
+            <option value="CSE"></option>
+            <option value="MECH"></option>
+            <option value="CIVIL"></option>
+            <option value="AEI"></option>
+        </datalist>
+        <br>
+        <br>
+        </section>
+        <section>
+        <input type="checkbox" name="checkbox" id="checkbox" required>
+        <label id="checkbox">I agree to <a href="#">terms and conditions</a>.</label>
+        <br>
+        <br>
+        <label for="photo">Student Photo :*</label>
+        <input type="file" name="studentphoto" id="photo" required>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="sign">Student Signiture :*</label>
+        <input type="file" name="studentsigniture" id="sign" required>
+        <br>
+        <br>
+        <button value="submit">Submit</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button value="reset">Reset</button>
+        </section>
+        <main>
+        </form>
+</body>
+</html>

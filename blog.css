@@ -1,0 +1,39 @@
+body
+{
+    box-sizing:border-box;
+    background-color: lightcoral;
+    padding: 20px;
+}
+.card
+{
+    padding: 20px;
+    background-color: antiquewhite;
+    width: 80%;
+    margin: 30%;
+    max-width: 500px;
+    border: 2px color black;
+    border-radius: 20px;
+    box-shadow: 7px 7px black;
+}
+.ler
+{
+    background-color: red;
+    border-radius: 20px;
+}
+.im
+{
+    border-radius: 10px;
+}
+h2
+{
+    color: darkred;
+}
+.ler:hover
+{
+    background-color: black;
+    color: white;
+}
+a:active
+{
+   background-color: yellow;
+}

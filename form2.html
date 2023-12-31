@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="outer">
+        <div class="inner">
     <form>
     <header>
     <h1><u>Admission Form</u></h1>
@@ -57,7 +59,7 @@
             <label for="dis">District :*</label>
             <input type="text" name="district" id="dis" required><br><br>
             <label>Address :*</label>
-            <textarea name="address" id="add" rows="30" cols="5" placeholder="Enter your present address" required></textarea>
+            <textarea name="address" id="add" rows="3" cols="25" placeholder="Enter your present address" required></textarea>
         </fieldset>
         </section>
         <section>
@@ -69,7 +71,7 @@
             <label for="perdis">District :*</label>
             <input type="text" name="perdis" id="perdis" required><br><br>
             <label>Address :*</label>
-            <textarea name="peradd" id="peradd" placeholder="Enter your permanent address" rows="30" cols="10" required></textarea>
+            <textarea name="peradd" id="peradd" placeholder="Enter your permanent address" rows="3" cols="25" required></textarea>
         </fieldset>
             <br>
             <br>
@@ -145,16 +147,19 @@
         <br>
         <label for="photo">Student Photo :*</label>
         <input type="file" name="studentphoto" id="photo" required>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <label for="sign">Student Signiture :*</label>
         <input type="file" name="studentsigniture" id="sign" required>
         <br>
         <br>
-        <button value="submit">Submit</button>
+        <div class="but">
+        <button class="sub" value="submit">Submit</button>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <button value="reset">Reset</button>
+        <button class="re" value="reset">Reset</button>
+        </div>
         </section>
         <main>
         </form>
+        </div>
+        </div>
 </body>
 </html>

@@ -1,0 +1,84 @@
+#ai
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.parent
+{
+    display: grid;
+    grid-template-columns: repeat(10, 1f);
+    grid-template-rows: repeat(10, 5%);
+    gap: 5px;
+}
+.child1
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.child2
+{
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.child3
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+.child4
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 10;
+}
+.child5
+{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+.child6
+{
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 7;
+    grid-row-end: 10;
+}
+.child7
+{
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.child8
+{
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+.child9
+{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 10;
+}
+.child10
+{
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}

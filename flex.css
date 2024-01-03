@@ -1,0 +1,12 @@
+
+    /* background-color: brown; */
+    /* border: 1px solid black; */
+.outer
+{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    border: 1px solid black;
+
+}

@@ -1,0 +1,120 @@
+*
+{
+    box-sizing: border-box;
+}
+header{
+    border: 2px solid goldenrod;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.menu li a
+{ 
+    text-decoration: none;
+    font-size: 25px;
+}
+.menu ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.menu li
+{
+    padding: 10px;
+    color: black;
+    list-style-type: none;
+}
+.menu li a:hover
+{
+    color: black;
+}
+#home
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+    padding: 30px;
+}
+.name
+{
+    font-size: 80px;
+    margin: 0px;
+}
+.bjp
+{
+    font-size: 48px;
+    margin: 0px;
+}
+.bjp span{
+    color: goldenrod;
+}
+h2
+{
+    text-align: center;
+    color: goldenrod;
+    text-decoration: underline;
+}
+.para
+{
+    margin: 0px;
+    padding: 40px;
+}
+.right
+{
+    margin-top: 80px;
+}
+.parent
+{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid: 20px;
+    
+}
+.projects1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+    box-shadow: 5px 5px goldenrod;
+}
+.par{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer
+{
+    background-color: goldenrod;
+    height: 100px;
+    text-align: center;
+}
+button:hover
+{
+  background-color: goldenrod;
+  color: black;
+  transform: translatex(20px);
+  transition: 1s ease ;
+}
+button
+{
+    background-color: black;
+    color: goldenrod;
+}
+.project-button
+{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
+.project-image:hover
+{
+    transform: scale(1.2,1.2);
+    transition: 1s ease-in-out ;
+}
